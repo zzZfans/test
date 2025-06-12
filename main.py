@@ -3,8 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib as mpl
+from matplotlib import font_manager
 
 # 设置matplotlib默认字体为SimHei，以支持中文显示
+mpl.font_manager.fontManager.addfont('fonts/SimHei.ttf')
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体
 plt.rcParams['axes.unicode_minus'] = False  # 解决保存图像时负号'-'显示为方块的问题
 
