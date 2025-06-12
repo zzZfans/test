@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 设置matplotlib默认字体为SimHei，以支持中文显示
-plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei', 'KaiTi', 'Arial Unicode MS']  # 多个备选
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体
 plt.rcParams['axes.unicode_minus'] = False  # 解决保存图像时负号'-'显示为方块的问题
 
 # 设置页面标题
